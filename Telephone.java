@@ -6,9 +6,9 @@ public class Telephone {
         Tele android= new Tele(5000, "Android", apple);
         apple.nom="Soa";
         System.out.println(android.marque.nom);
+        
     }
 }
-
 class Tele{
     int pixles;
     String nom;
@@ -20,7 +20,6 @@ class Tele{
         this.marque=marque;
     }
 }
-
 class Marque{
     String nom;
 

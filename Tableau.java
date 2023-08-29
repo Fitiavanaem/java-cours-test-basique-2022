@@ -9,7 +9,6 @@ public class Tableau{
         TableauStrings();
 
         }
-
     static void TableauString(){
         String[] nom={"Fitiavana" , "Fara" , "Lahy"};
 
@@ -17,7 +16,6 @@ public class Tableau{
             System.out.println(nom[i]);
         }
     }
-
     static void TableauStrings(){
         String[] nom= new String[]{"Rojo" , "Bri" , "Siki"};
 
