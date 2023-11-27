@@ -12,12 +12,17 @@ class Animal {
         System.out.println("L'animal fait un bruit");
     }
 }
+
 class Chien extends Animal {
+
+    @Override
     public void faireduBruit() {
         System.out.println("Le chien aboie");
     }
 }
 class Chat extends Animal {
+    
+    @Override
     public void faireduBruit() {
         System.out.println("Le chat miaule");
     }
